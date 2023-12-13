@@ -1,0 +1,14 @@
+{
+  "name": "QATest",
+  "type": "module",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^8.24.2",
+    "@wdio/cli": "^8.24.6",
+    "@wdio/local-runner": "^8.24.6",
+    "@wdio/mocha-framework": "^8.24.6",
+    "@wdio/spec-reporter": "^8.24.2"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js"
+  }
+}
